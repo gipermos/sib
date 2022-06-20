@@ -1,4 +1,4 @@
-FROM openjdk:11
+FROM openjdk:19-ea-25-jdk-slim-buster
 WORKDIR /src
 COPY . .
 RUN ./gradlew bootJar
